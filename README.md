@@ -2,4 +2,4 @@
 Creating a single page app with tailwind CSS
 
 
-![License](images/demo.png)
+![License](public/images/demo.png)
