@@ -13,8 +13,8 @@
     <nav role="navigation"
         class="flex justify-between items-center h-16 bg-gradient-to-r from-purple-700 to-purple-600 text-white relative">
         <a href="index.html" class="pl-6">CIROC</a>
-        <div class="px-4 cursor-pointer" id="bars">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        <div class="px-4 cursor-pointer md:hidden" id="bars">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
                 </path>
@@ -26,6 +26,28 @@
             <a href="contact.html" class="p-4">Contact</a>
         </div>
     </nav>
+
+    <!-- Hero Section  -->
+
+    <div class="bg-no-repeat h-screen bg-center bg-cover flex justify-center items-center"
+        style="background-image: url('./images/img.jpg')">
+
+        <div class="text-center font-bold">
+            <h1 class="lg:text-8xl sm:text-5xl text-4xl mb-10 text-purple-600 hover:text-white duration-300">
+                Choose your Light
+            </h1>
+            <a href="#"
+                class="text-purple-500 text-xl flex justify-center items-center transform hover:scale-110 duration-300">Explore
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+
 
     <script src="app.js"></script>
 </body>
